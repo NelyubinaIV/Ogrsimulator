@@ -1,4 +1,5 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router-dom";
+
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { StudentDashboard } from "./pages/StudentDashboard";
