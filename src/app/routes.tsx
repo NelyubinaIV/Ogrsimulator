@@ -6,7 +6,7 @@ import { AdminDashboard } from "./pages/AdminDashboard";
 import { QuestionView } from "./pages/QuestionView";
 import { Layout } from "./components/Layout";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     Component: Layout,
